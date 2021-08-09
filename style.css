@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Barlow);
+* {
+  font-family: "Barlow";
+}
+
+.center * {
+  text-align: center;
+}
+
+#color-wheel {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.selected-color-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.selected-color-info p {
+  margin: 0 5px 0 0;
+}
